@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify --watch",
+    "beautify": "beautify -o ./dist/output.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "beautify": "^0.0.8"
+  }
+}
